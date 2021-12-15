@@ -9,4 +9,10 @@ public class ChangeSceneWithButton : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public string urlstring = "http://www.yahoo.com";
+    public void LoadURL()
+    {
+        Application.OpenURL(urlstring);
+    }
 }

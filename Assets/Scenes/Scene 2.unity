@@ -679,7 +679,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 624404901}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915579627}
+        m_MethodName: LoadURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &624404901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,7 +1351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2113307854}
+  - {fileID: 2015022665}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1877,6 +1888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 958642b31aba5724cae701d30cd214f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  urlstring: http://www.yahoo.com
 --- !u!4 &1915579628
 Transform:
   m_ObjectHideFlags: 0
@@ -1891,7 +1903,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &2113307854
+--- !u!21 &2015022665
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1900,7 +1912,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'Home-RealityMaterial
 
-    21382'
+    16492'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
