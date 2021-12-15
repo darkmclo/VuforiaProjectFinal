@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "file:C:/Users/Chriss/Downloads/com.ptc.vuforia.engine",
+      "version": "git+https://git-packages.developer.vuforia.com/#9.8.11",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
-      }
+      },
+      "hash": "efa13d4486cf5af05d9f6cc2eb243dcd5e26f95b"
     },
     "com.unity.collab-proxy": {
       "version": "1.14.1",
@@ -106,7 +107,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.1.0",
+      "version": "4.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
