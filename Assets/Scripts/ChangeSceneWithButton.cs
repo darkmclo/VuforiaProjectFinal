@@ -10,7 +10,7 @@ public class ChangeSceneWithButton : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public string urlstring = "http://www.yahoo.com";
+    public string urlstring = "https://xyzdev.herokuapp.com/vista/vista_grafica";
     public void LoadURL()
     {
         Application.OpenURL(urlstring);
